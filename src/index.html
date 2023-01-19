@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./img/v.png" type="image/svg+xml" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Increver-se</title>
+  </head>
+  <body>
+    <main>
+      <div class="info">
+        <h1>Venha com tio krebes o tio da biologia</h1>
+        <p>
+          Os criadores e os gênios, no início da sua carreira, quase sempre, e
+          muitas vezes até no fim, sempre foram considerados pela sociedade como
+          uns parvos e uns loucos — é esta uma das observações mais triviais e
+          sabidas.
+        </p>
+      </div>
+      <div class="input">
+        <form action="" class="forms" autocomplete="off">
+          <div>
+            <label for="nome">Nome</label>
+            <input
+              type="nome"
+              id="nome"
+              class="input-padrao"
+              maxlength="20"
+              required
+              placeholder="Klebson"
+            />
+            <span class="error-span">O Primeiro Nome não pode ficar vazio</span>
+          </div>
+          <div>
+            <label for="sobrenome">Sobrenome</label>
+            <input
+              type="sobrenome"
+              id="sobrenome"
+              class="input-padrao"
+              maxlength="20"
+              required
+              placeholder="Codeiro"
+            />
+            <span class="error-span">O segundo nome não pode ficar vazio</span>
+          </div>
+          <div>
+            <label for="e-mail">Endereço de e-mail</label>
+            <input
+              type="e-mail"
+              id="e-mail"
+              class="input-padrao"
+              maxlength="35"
+              required
+              placeholder="bio@cursos.com.br"
+            />
+            <span class="error-span">O seu e-mail não pode ficar vazio</span>
+          </div>
+          <div>
+            <label for="telefone">Telefone</label>
+            <input
+              type="number"
+              id="telefone"
+              class="input-padrao"
+              required
+              placeholder="(xx) xxxxx-xxxx"
+            />
+            <span class="error-span">O telefone não pode ficar vazio</span>
+          </div>
+          <button id="Vaga">GARANTA SUA VAGA</button>
+          <p>
+            Ao clicar no botão, você concorda com nossos
+            <a href="#">Termos e Serviços</a>
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
