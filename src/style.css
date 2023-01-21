@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("https://previews.123rf.com/images/varka/varka1312/varka131200579/24584468-science-chemistry-laboratory-vector-background-sketchy-style-.jpg");
+  background-image: url("");
   background-color: #c77100fd;
 }
 
@@ -26,14 +26,14 @@ main {
 .info h1 {
   font-size: 3.125rem;
   line-height: 3.5rem;
-  color: #c77100fd;
+  color: #fffffffd;
 }
 
 .info p {
   font-size: 1rem;
   line-height: 1.625rem;
   margin-top: 30px;
-  color: #c77100fd;
+  color: #f8f8f8fd;
 }
 
 .forms {
