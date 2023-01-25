@@ -11,7 +11,7 @@ body {
   align-items: center;
   height: 100vh;
   background-image: url("");
-  background-color: #e97bf3fd;
+  background-color: #f9a9fcfd;
 }
 
 main {
@@ -88,6 +88,30 @@ main {
   position: absolute;
   display: block;
 }
+
+.forms button {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #37cc8a;
+  color: #f5f7fa;
+  box-shadow: 0 5px 0 0 #34b67d;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+  0 0 25px #03e9f4,
+  0 0 50px #03e9f4,
+  0 0 100px #03e9f4;
+}
+
+.forms button:hover {
+  background-color: #2ea772;
+}
+
 .forms p {
   font-size: 0.688rem;
   text-align: center;
