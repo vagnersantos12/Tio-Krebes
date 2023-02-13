@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['email']) && !empty($_POST(['email'])){
+if(isset($_POST(['email'])) && !empty($_POST(['email']))){
 
 $nome = addslashes($_POST(['name']));
 $sobrenome = addslashes($_POST(['sobrenome']));
