@@ -1,7 +1,6 @@
 <?php
 
-<<<<<<< HEAD
-if(isset($_POST['email']) && !empty($_POST['email'])){
+if(isset($_POST['email']) && !empty($_POST(['email'])){
 
 $nome = addslashes($_POST(['name']));
 $sobrenome = addslashes($_POST(['sobrenome']));
@@ -26,26 +25,3 @@ if(mail($to,$subject,$body,$header)){
 }
 }
 ?>
-=======
-require __DIR__ . "/vendor/autoload.php";
-
-use Twilio\Rest\Client;
-
-$dotenv = Dotenv\Dotenv::create(__DIR__);
-$dotenv->load();
-
-$twilioSid    = getenv('TWILIO_SID');
-$twilioToken  = getenv('TWILIO_TOKEN');
-
-$twilio = new Client($twilioSid, $twilioToken);
-
-$message = $twilio->messages
-                 ->create(
-                       "whatsapp:+558798133618",
-                     array(
-                              "body" => "Greetings from Twilio :-)",
-                              "from" => "whatsapp:+558798133618"
-                          )
-                 );
-<?;
->>>>>>> a8d143a7dbb2f8134dc45982c24b31dd9e0ed2ef
