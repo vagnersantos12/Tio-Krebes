@@ -89,8 +89,9 @@ main {
   display: block;
 }
 
-.forms button {
+.forms a {
   font-size: 1rem;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 600;
   padding: 15px;
@@ -102,13 +103,13 @@ main {
   box-shadow: 0 5px 0 0 #34b67d;
   cursor: pointer;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4,
-  0 0 25px #03e9f4,
-  0 0 50px #03e9f4,
-  0 0 100px #03e9f4;
+  box-shadow: 0 0 5px #f9a9fcfd,
+  0 0 25px #f9a9fcfd,
+  0 0 50px #f9a9fcfd,
+  0 0 100px #f9a9fcfd;
 }
 
-.forms button:hover {
+.forms a:hover {
   background-color: #2ea772;
 }
 
@@ -117,7 +118,7 @@ main {
   text-align: center;
 }
 
-.forms p a {
+.forms p h {
   text-decoration: none;
   font-weight: 700;
   color: #c77100fd;

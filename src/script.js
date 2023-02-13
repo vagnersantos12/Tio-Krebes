@@ -1,4 +1,4 @@
-const botao = document.querySelector('button')
+const botao = document.querySelector('a')
 const inputs = document.querySelectorAll('.forms input')
 
 function adicionaStyleErro() {
