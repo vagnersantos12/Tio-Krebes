@@ -24,7 +24,7 @@ main {
 }
 
 .info h1 {
-  font-size: 3.125rem;
+  font-size: 2.9rem;
   line-height: 3.5rem;
   color: #fffffffd;
 }
@@ -87,26 +87,6 @@ main {
 .login-box a span {
   position: absolute;
   display: block;
-}
-
-.forms a {
-  font-size: 1rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  padding: 15px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  background-color: #37cc8a;
-  color: #f5f7fa;
-  box-shadow: 0 5px 0 0 #34b67d;
-  cursor: pointer;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #f9a9fcfd,
-  0 0 25px #f9a9fcfd,
-  0 0 50px #f9a9fcfd,
-  0 0 100px #f9a9fcfd;
 }
 
 .forms a:hover {
