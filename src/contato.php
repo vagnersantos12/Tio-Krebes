@@ -20,8 +20,6 @@ if(mail($to,$subject,$body,$header)){
   echo("Email enviado com sucesso");
 }else{
   echo("O Email não pode ser enviado");
-
-
 }
 }
 ?>
