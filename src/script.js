@@ -1,5 +1,7 @@
 const botao = document.querySelector('Enviar')
-const inputs = document.querySelectorAll('.forms input')
+const inputs = document.querySelectorAll(
+  '.forms                                                                                                                                                    input'
+)
 
 function adicionaStyleErro() {
   botao.addEventListener('click', verificaInput)
