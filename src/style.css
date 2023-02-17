@@ -11,6 +11,10 @@ body {
   align-items: center;
   height: 100vh;
   background-image: url("./img/klebson-site.png");
+
+}
+img {
+  position: relative; top: 100px; left: 1200px;
 }
 
 main {
@@ -21,23 +25,28 @@ main {
   gap: 60px;
   align-items: center;
 }
-
-.info h1 {
-  text-align: center;
-  font-size: 60px;
+.info h2 {
+  vertical-align: middle;
+  font-size: 50px;
   margin-top: 30px;
   line-height: 3.5rem;
   color: #e3e6ebfd;
-  position: relative; top: -350px; left: 300px;
-  text-shadow: 0 0 10px rgb(0, 0, 0);
+  position: relative; top: -550px; left: 300px;
+  text-shadow: 0 0 10px rgb(61, 79, 180);
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(230, 227, 227),
+      0 0 21px rgb(209, 207, 207),
+      0 0 102px rgb(75, 73, 73),
+      0 0 151px rgb(0, 0, 0);
 }
-
 .info p {
   font-size: 1rem;
   line-height: 1.625rem;
   margin-top: 30px;
   color: rgb(252, 252, 252);
-  position: relative; top: 200px; left: 600px;
+  position: relative; top: 15px; left: 630px;
 }
 
 .forms {
